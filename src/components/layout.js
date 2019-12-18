@@ -8,6 +8,7 @@ import SimpleSlider from "./carousal"
 import Customerask from "./customerask"
 import Homeheader from "./homeheader"
 
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
