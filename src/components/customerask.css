@@ -1,9 +1,11 @@
 .ask-cust-wrap {
     display: inline-block;
+    width: 76%;
 }
 .ask-cust-wrap h2 {
-    font-size: 22px;
+    font-size: 30px;
     margin-bottom: 25px;
+    color: black;
     text-align: center;
 }
 .ask-img:hover {

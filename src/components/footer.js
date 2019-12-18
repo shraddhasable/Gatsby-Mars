@@ -13,7 +13,7 @@ const Footer = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 1170,
         padding: `1.45rem 1.0875rem`,
       }}
     >
@@ -61,7 +61,29 @@ const Footer = ({ siteTitle }) => (
   </div>
   <div id="FooterContent_T2B341F4F004_Col01" class="sf_colsIn col-md-3" data-sf-element="Column 2" data-placeholder-label="Column 2">
     
-
+  <ul className="footer-nav social-ic">
+    <li>
+      <a href="https://www.facebook.com/Pedigree/" target="_blank"  rel="noopener noreferrer">
+          <span className="fa fa-facebook socialmedia__icon"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/pedigreeus/?utm_source=ig_profile_share&amp;igshid=pr5fi4viz1ur" target="_blank"  rel="noopener noreferrer">
+           <span className="fa fa-insta socialmedia__icon"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/pedigreeus" target="_blank"  rel="noopener noreferrer">
+            <span className="fa fa-twitter socialmedia__icon"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.youtube.com/user/pedigreebrand" target="_blank"  rel="noopener noreferrer">
+          <span className="fa fa-youtube socialmedia__icon"></span>
+      </a>
+    </li>
+  </ul>
+    
 
       {/* <ul id="navlist"> 
             <li className="fb-icon"><a aria-label="" href="https://www.google.co.in"></a></li>
@@ -69,6 +91,8 @@ const Footer = ({ siteTitle }) => (
             <li className="twitter-icon"><a aria-label="" href="https://www.google.co.in"></a></li> 
             <li className="youtube-icon"><a aria-label="" href="https://www.google.co.in"></a></li> 
       </ul> */}
+
+
 
 
 

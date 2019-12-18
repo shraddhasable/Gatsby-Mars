@@ -623,3 +623,8 @@ pre tt:after {
 .main-wrapper {
   background-color: #FFB10E;
 }
+
+.innerWrap {
+  width: 1140px;
+  margin: 0 auto;
+}

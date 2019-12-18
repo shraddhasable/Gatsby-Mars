@@ -1,0 +1,65 @@
+.product-review-cta .row .review-left {
+    text-align: right;
+}
+.product-review-cta .row .review-left h3 {
+    line-height: 35px;
+    font-size: 1.2rem;
+}
+.product-review-cta .row {
+    width: 90%;
+    margin: auto;
+}
+.product-review-cta {
+    background-color: #fff;
+    margin-top: -10px;
+    margin-bottom: 35px;
+    min-height: 90px;
+    padding-top: 28px;
+}
+.product-review-cta .row .review-right {
+    text-align: left;
+}
+.product-review-cta .row .review-right .dropdown {
+    height: 35px;
+    width: 300px;
+    vertical-align: middle;
+}
+.dropup, .dropdown {
+    position: relative;
+}
+.product-review-cta .row .review-right .dropdown .dropdown-toggle {
+    cursor: pointer;
+    border: 1px solid #FFB10E;
+    background-color: #FFB10E;
+    border-radius: 2px;
+    text-align: left;
+    font-size: 14px;
+    width: 290px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 7px 10px;
+}
+.product-review-cta .row .review-right .dropdown .caret {
+    float: right;
+    margin-top: 8px;
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid \9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.product-review-cta .row .review-right .dropdown .dropdown-menu {
+    width: 290px;
+    z-index: 99;
+    border: solid #FFB10E 1px;
+    border-radius: 0 0 2px 2px;
+    -webkit-box-shadow: 0 6px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.175);
+}

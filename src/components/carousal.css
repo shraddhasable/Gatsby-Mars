@@ -1,0 +1,32 @@
+
+.slick-prev {
+    display: block;
+    position: absolute;
+    margin-left: 60px;
+    z-index: 10;
+}
+.slick-next
+{
+    display: block;
+    position: absolute;
+    margin-right: 98px;
+    z-index: 10;
+}
+
+.slick-prev:before, .slick-next:before
+
+{
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.banner-img{ 
+    width: 100%;
+
+}
+  

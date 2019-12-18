@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        maxWidth: 1170,
       }}
     >
       {/* <h1 style={{ margin: 0 }}>
@@ -30,14 +30,13 @@ const Header = ({ siteTitle }) => (
       <div className="header">
         <div className="header-right">
           <a className="active" href="#dogfood">DOG FOOD</a>
-          <a href="page-2">Why Pedigree</a>
-          <a href="https://www.yujdesigns.com/">Dog Care</a>
-          <a href="https://www.yujdesigns.com/">Getting A New Dog</a>
-          <a href="https://www.yujdesigns.com/">Helping Dogs</a>
-          <a href="https://www.yujdesigns.com/" className="black-text">Buy Now</a>
-          <a href="https://www.yujdesigns.com/" className="black-text">Newsletter</a>
-          
-          <a href="https://www.yujdesigns.com/" className="">
+          <a href="https://www.google.com/">Why Pedigree</a>
+          <a href="page-2">Dog Care</a>
+          <a href="https://www.google.com/">Getting A New Dog</a>
+          <a href="https://www.google.com/">Helping Dogs</a>
+          <a href="https://www.google.com/" className="black-text">Buy Now</a>
+          <a href="https://www.google.com/" className="black-text">Newsletter</a>
+          <a href="https://www.google.com/" className="">
             <span class="glyphicon glyphicon-search clickable"></span>
           </a>
         </div>

@@ -24,13 +24,29 @@
     color: #000;
     font-size: 13px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: bold;
+    text-decoration: none;
+    
 }
 
+.footer-nav.primary a:hover {
+    color: #005E94;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
 #Footer .copyright p {
     margin-top: 15px;
     margin-left: 1.45rem;
 }
+.footer-nav ul li a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-nav ul li a:hover {
+     color: #005E94;
+  }
 .copyright p {
     margin-left: 25px;
 }
@@ -63,6 +79,84 @@ img.social-icon {
     cursor: pointer;
 } 
 
+.socialmedia__icon {
+    background-color: #005e94;
+    border-radius: 50%;
+    height: 41px;
+    text-align: center;
+    width: 41px;
+    color: #fff;
+    font-size: 25px;
+    margin: 2px;
+    display: -moz-flex;
+    display: flex;
+    -moz-justify-content: center;
+    justify-content: center;
+    -moz-align-items: center;
+    align-items: center;
+    padding: 14px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-insta:before {
+    content: "\f16d";
+}
+.fa-youtube:before {
+    content: "\f167";
+}
+
+
+.social-ic {
+    margin: 0;
+}
+.social-ic li {
+    display: inline-block;
+    float:left;
+}
+
+
+
+
+.fa {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #005e94;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #005e94;
+    color: white;
+  }
+  .fa-youtube {
+    background: #005e94;
+    color: white;
+  }
+  .fa-instagram {
+    background: #005e94;
+    color: white;
+  }
+/* 
 .fb-icon { 
     left:0px; 
     background: url(../images/social.jpg) 498px 470px; 
@@ -78,4 +172,5 @@ img.social-icon {
 .youtube-icon {
     left:135px; 
     background: url(../images/social.jpg) 497px 385px;
-}
+} */
+

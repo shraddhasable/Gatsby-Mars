@@ -1,0 +1,59 @@
+.fca-container {
+    text-align: center;
+}
+.ourproduct {
+    padding: 25px 0;
+}
+.fca-container h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: black;
+}
+.middle {
+    vertical-align: middle;
+}
+.fca-container .table {
+    margin-bottom: 10px;
+}
+.fca-container p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    width: auto;
+    height: 56px;
+    color: black;
+}
+.fca-container .btn {
+    font-size: 14px;
+}
+.btn:not(.yellow) {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    width: auto;
+    border-color: #fff;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    border-radius: 0;
+}
+.btn:not(.yellow):hover {
+    background-color: #fff;
+    color: #808080;
+}
