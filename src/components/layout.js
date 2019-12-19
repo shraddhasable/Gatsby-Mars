@@ -11,6 +11,7 @@ import Ourproduct from "./ourproduct"
 import Whiteheader from "./whiteheader"
 import Bottombanner from "./bottombanner"
 
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -43,7 +44,9 @@ const Layout = ({ children }) => {
           </div>  
           <Bottombanner />        
       </div>
+   
       <Footer />
+    
     </div>
   )
 }
