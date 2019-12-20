@@ -1,0 +1,15 @@
+.subheader {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 80%;
+    margin: 0 auto;
+    background: #FFB10E;
+    text-align: center;
+}
+.subheader p {
+    color: #fff;
+    margin-bottom: 35px;
+    padding: 0;
+    font-size: 30px;
+    line-height: 1.6;
+}

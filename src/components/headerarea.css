@@ -1,0 +1,27 @@
+
+.banner-img .banner-image {
+    width: 100%;
+}
+.hero-image {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logo-baner {
+	width: 100%;
+}
+img.icon {
+    width: 80px;
+    bottom: 14px;
+    margin-top: -65px;
+}
+.logo-b {
+    width: 100%;
+}
